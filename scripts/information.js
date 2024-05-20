@@ -18,7 +18,7 @@
     function showMountainInfo() {
         const selectedIndex = mountainDropdown.value;
         if (selectedIndex === "") {
-            document.getElementById('mountainInfo').style.display = 'none';
+            document.getElementById('mountainInfo').style.display = 'block';
             return;
         }
         const mountain = mountainsArray[selectedIndex];
