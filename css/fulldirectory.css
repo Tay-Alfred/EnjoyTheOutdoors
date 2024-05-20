@@ -1,5 +1,5 @@
 #navbar {
-    position: fixed;
+    position: sticky;
     min-width: 290px;
     top: 0px;
     left: 0px;
@@ -7,7 +7,8 @@
     height: 100%;
     border-right: solid;
     border-color: rgba(0, 22, 22, 0.4);
-    margin-top: 15%;
+    margin-right: auto;
+    flex: left;
   }
   #navbar ul {
     height: 88%;
@@ -41,4 +42,12 @@
   @media screen (max-width: 100%){ 
     #navbar{padding:0px}
     
+  }
+  #directoryBox{
+   overflow: hidden;
+   width: 75%;
+   margin-left: auto;
+  }
+  img{
+    margin-left: auto;
   }
