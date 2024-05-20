@@ -25,7 +25,7 @@ const mountainsArray = [
         name: "Mt. Jefferson",
         elevation: 5716,
         effort: "Strenuous",
-        img: "Jefferson-StoryImage_2.jpg",
+        img: "images/Jefferson-StoryImage_2.jpg",
         desc: "Mt. Jefferson (5,716 feet) has three summits a short distance apart, in line northwest and southeast, with the highest in the middle. Perhaps the most striking view is down the Great Gulf with the Carter Range beyond.",
         coords: {
             lat: 44.304196,
