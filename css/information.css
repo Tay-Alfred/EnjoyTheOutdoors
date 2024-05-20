@@ -38,4 +38,10 @@
     position: relative;
     width: 100%;
   }
+  @media screen (max-width: 100%){ 
+    #navbar{padding:0px}
+    
+  }
+
+  
   
