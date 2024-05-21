@@ -1,5 +1,6 @@
 body{
-    background-color: #006666 !important;
+    /* background-color: #006666 !important; */
+    background-image: linear-gradient(#66b2b2, #b3ecec) !important ;
 }
 #navBar{
     background-color: #b2d8d8 !important;
@@ -28,7 +29,7 @@ body{
     z-index: 0; 
     width: 100%;
     height: auto;
-    opacity: 1;
+    opacity: 0.9;
     width: 100%;
 }
 #mountainImg{
