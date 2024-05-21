@@ -1,3 +1,51 @@
+body{
+    background-color: #006666 !important;
+}
+#navBar{
+    background-color: #b2d8d8 !important;
+}
 #homePageTitle{
     padding-left: 30px;
+}
+#summitBox{
+    border: 1px solid #b2d8d8;
+    background-color: #b2d8d8;
+    border-radius: 1%;
+    width: 60%;
+    padding: 4%;
+    text-align: center;
+    margin-top: 5%;
+    z-index: 1;
+    position: relative;
+
+}
+#summitImg{
+     display: block;
+    float: right;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0; 
+    width: 100%;
+    height: auto;
+    opacity: 1;
+    width: 100%;
+}
+#mountainImg{
+    padding-left: 130px;
+    padding-top: 20px;
+}
+@media screen and(max-width: 390px) {
+    #summitBox{
+        max-width: 20%;
+    }
+    #summitImg{
+        max-width: 300px;
+    }
+    #mountainImg{
+        max-width: 400px
+    }
+    .col{
+        max-width: fit-content;
+    }
 }
