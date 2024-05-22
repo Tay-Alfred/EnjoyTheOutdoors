@@ -1,14 +1,25 @@
+body{
+background-image: url(https://img.getimg.ai/generated/img-UCf62FaSci9Cum6wwB5qF.jpeg) !important;
+background-size: cover;  /* Ensure the image covers the whole page */
+background-repeat: no-repeat;  /* Prevent the image from repeating */
+background-position: center center;  /* Center the image */
+background-attachment: fixed;
+}
 #navbar {
     position: sticky;
-    min-width: 290px;
+    min-width: 350px;
     top: 0px;
     left: 0px;
-    width: 300px;
+    width: 400px;
     height: 100%;
     border-right: solid;
     border-color: rgba(0, 22, 22, 0.4);
     margin-right: auto;
     flex: left;
+    margin-left: 0px !important;
+    margin-left: -15px;
+    box-shadow: 3px 4px 4px 4px #999999cc;
+    overflow-y: auto;
   }
   #navbar ul {
     height: 88%;
@@ -18,36 +29,52 @@
   }
   
   #navbar li {
-    color: #4d4e53;
+    color: #000;
     border-top: 1px solid;
     list-style: none;
     position: relative;
     width: 100%;
     padding: 2%;
+    text-align: center;
+    background-color:#999999cc
   }
-  #navbar ul {
-    height: 88%;
-    padding: 0;
-    overflow-y: auto;
-    overflow-x: hidden;
-  }
-  
-  #navbar li {
-    color: #4d4e53;
-    border-top: 1px solid;
-    list-style: none;
-    position: relative;
-    width: 100%;
-  }
+
   @media screen (max-width: 100%){ 
     #navbar{padding:0px}
     
   }
   #directoryBox{
    overflow: hidden;
-   width: 75%;
-   margin-left: auto;
+   width: 65% !important;
+   margin-left: 32%;
+   margin-top: 5%;
+   background-color: #999999cc;
+   padding: 40px;
+   box-shadow: 3px 4px 1cap 4px #b2d8d8cc;
+   border-radius: 4px;
   }
   img{
-    margin-left: auto;
+    margin-left: 45%;
+  }
+  .container{
+    display: flex;
+  }
+  header{
+    border: 1px solid #4d4e53;
+    width: 45%;
+    margin-left: 30%;
+    margin-top: 1%;
+  }
+  #testBox{
+    width: 50%;
+    position: absolute;
+    top: 300px;
+    right: 120px;
+    background-color: #999999cc;
+    border-radius: 4px;
+    padding: 10px;
+    box-shadow: 3px 4px 4px 4px #b2d8d8cc;
+  }
+  #titleText{
+    color: #000;
   }
