@@ -142,7 +142,7 @@ body{
     margin-left: 50%;
     width: 50%;
     padding: 10px;
-   
+    text-shadow: 1px 2px 2px #000;
 }
 #mountainButton a{
     color: #b2d8d8;

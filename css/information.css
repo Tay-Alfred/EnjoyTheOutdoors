@@ -1,13 +1,18 @@
+#navbar{
+  background-color:#b1d8d8d9 ;
+}
 #offcanvasNavbar{
   background-color: #b2d8d8;
 }
-  #mountainBox{
+#mountainBox{
     border: 1px solid #b2d8d8cc;
     background-color:#b1d8d8d9 ;
-    width: 75%;
+    width: 65%;
     margin-left: auto;
     margin-right: auto;
     padding: 5%;
+    box-shadow: 3px 4px 4px 4px #99999980;
+    border-radius: 4px;
   }
   
   #mountainDropdown{
@@ -18,15 +23,47 @@
     justify-content: center;
     align-items: center;
     width: 100%;
+    background-color: #999999;
   }
+#selectText{
+  text-align: center;
+}
+#mountainInfo{
+  text-align: center;
+}
+#mountainDesc{
+  text-align: center;
+}
+#mountainElevation{
+  text-align: center;
+}
+#mountainElevation{
+  text-align: center;
+}
+#mountainImg{
+  margin-left: auto;
+  margin-right: auto;
+}
 #cardText{
   text-align: center;
-  width: 90%;
+  width: 60%;
   padding: 15px;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 5%;
   margin-top: 3%;
+  background-color: #b1d8d8d9;
+  box-shadow: 3px 4px 4px 4px #99999980;
+}
+#transitionPageText{
+  background-color: #b1d8d8d9;
+  padding: 5px;
+  box-shadow: 3px 4px 4px 4px #99999980;
+  border-radius: 4px;
+}
+.container{
+  margin-top: 3%;
+  margin-bottom: 3%;
 }
 .bottom-image {
   position: fixed;
