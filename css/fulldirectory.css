@@ -43,7 +43,7 @@ background-attachment: fixed;
     background-color:#999999cc
   }
 
-  @media screen (max-width: 100%){ 
+  @media screen and (max-width: 100%){ 
     #navbar{padding:0px}
     
   }
