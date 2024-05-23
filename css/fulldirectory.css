@@ -10,12 +10,6 @@ background-position: center center;  /* Center the image */
 background-attachment: fixed;
 }
 #navbar {
-    position: relative;
-    min-width: 350px;
-    max-width: 400px;
-    top: 0px;
-    left: 0px;
-    width: 400px;
     height: 100%;
     border-right: solid;
     border-color: rgba(0, 22, 22, 0.4);
@@ -23,13 +17,12 @@ background-attachment: fixed;
     flex: left;
     margin-left: 0px !important;
     box-shadow: 3px 4px 1cap 4px #b2d8d8cc;
-    overflow-y: auto;
+    overflow-x: hidden;
   }
   #navbar ul {
-    height: 88%;
+    height: 100%;
     padding: 0;
-    overflow-y: auto;
-    overflow-x: hidden;
+    width: 300px;
   }
   
   #navbar li {
@@ -49,8 +42,8 @@ background-attachment: fixed;
   }
   #directoryBox{
    overflow: hidden;
-   width: 65% !important;
-   margin-left: 3%;
+   width: 75% !important;
+   margin-left: 15%;
    margin-right: 3%;
    margin-top: 40%;
    margin-bottom: 10%;
@@ -83,12 +76,24 @@ background-attachment: fixed;
   #testBox{
     width: 50%;
     position: absolute;
-    top: 275px;
-    right: 120px;
+    top: 250px;
+    right: 170px;
     background-color: #999999cc;
     border-radius: 4px;
     padding: 10px;
     box-shadow: 3px 4px 1cap 4px #b2d8d8cc;
+  }
+  #goHomeKagome{
+    background-color: #999999cc;
+    color: #b2d8d8;
+    width: 10%;
+    padding: 5px;
+    position: absolute;
+    right: 30px;
+    top: 40px;
+    text-shadow: 1px 2px 2px #000;
+    
+
   }
   #titleText{
     color: #000;
@@ -111,4 +116,20 @@ background-attachment: fixed;
 
 #backToTopBtn:hover {
   background-color: #004c4c;
+}
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 300px;
+  height: 100%;
+
+}
+.sidebar a:hover {
+  background-color: #575757;
+}
+.content {
+  margin-left: 270px;
+  padding: 20px;
+  flex: 1;
 }
