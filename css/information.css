@@ -30,6 +30,7 @@
 }
 #mountainInfo{
   text-align: center;
+  margin-top: 40px;
 }
 #mountainDesc{
   text-align: center;
@@ -37,7 +38,7 @@
 #mountainElevation{
   text-align: center;
 }
-#mountainElevation{
+#mountainName{
   text-align: center;
 }
 #mountainImg{
