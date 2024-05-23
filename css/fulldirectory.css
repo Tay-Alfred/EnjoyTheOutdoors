@@ -1,4 +1,8 @@
 body{
+margin: 0;
+padding: 0;
+min-height: 100vh;
+overflow-y: auto;
 background-image: url(https://img.getimg.ai/generated/img-UCf62FaSci9Cum6wwB5qF.jpeg) !important;
 background-size: cover;  /* Ensure the image covers the whole page */
 background-repeat: no-repeat;  /* Prevent the image from repeating */
@@ -6,8 +10,9 @@ background-position: center center;  /* Center the image */
 background-attachment: fixed;
 }
 #navbar {
-    position: sticky;
+    position: relative;
     min-width: 350px;
+    max-width: 400px;
     top: 0px;
     left: 0px;
     width: 400px;
@@ -17,8 +22,7 @@ background-attachment: fixed;
     margin-right: auto;
     flex: left;
     margin-left: 0px !important;
-    margin-left: -15px;
-    box-shadow: 3px 4px 4px 4px #999999cc;
+    box-shadow: 3px 4px 1cap 4px #b2d8d8cc;
     overflow-y: auto;
   }
   #navbar ul {
@@ -46,18 +50,29 @@ background-attachment: fixed;
   #directoryBox{
    overflow: hidden;
    width: 65% !important;
-   margin-left: 32%;
-   margin-top: 5%;
+   margin-left: 3%;
+   margin-right: 3%;
+   margin-top: 40%;
+   margin-bottom: 10%;
    background-color: #999999cc;
    padding: 40px;
    box-shadow: 3px 4px 1cap 4px #b2d8d8cc;
    border-radius: 4px;
+   text-align: center;
+   text-wrap: wrap;
+  }
+  #directoryBox p{
+    padding-bottom: 15px;
+    border-bottom: 1px solid;
   }
   img{
-    margin-left: 45%;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    margin-right: 20%;
+    margin-left: 2%;
   }
-  .container{
-    display: flex;
+  span{
+    overflow: hidden;
   }
   header{
     border: 1px solid #4d4e53;
@@ -68,13 +83,32 @@ background-attachment: fixed;
   #testBox{
     width: 50%;
     position: absolute;
-    top: 300px;
+    top: 275px;
     right: 120px;
     background-color: #999999cc;
     border-radius: 4px;
     padding: 10px;
-    box-shadow: 3px 4px 4px 4px #b2d8d8cc;
+    box-shadow: 3px 4px 1cap 4px #b2d8d8cc;
   }
   #titleText{
     color: #000;
   }
+.flex-container{
+ display: flex;
+}
+#backToTopBtn {
+  display: none; /* Initially hide the button */
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  padding: 10px;
+  background-color: #333;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#backToTopBtn:hover {
+  background-color: #555;
+}
