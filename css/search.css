@@ -1,0 +1,36 @@
+#navBar{
+    background-color:#b1d8d8d9 !important;
+  }
+  #offcanvasNavbar{
+    background-color: #b2d8d8;
+  }
+  .boxxybox{
+    background-color:#b1d8d8d9;
+    border-radius: 4px;
+    width: 65%;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    margin-bottom: 40px;
+    box-shadow: 3px 4px 4px 4px #99999980;
+  }
+  #parkTypeSelect{
+    margin-bottom: 40px;
+    background-color: #999999;
+  }
+  #stateSelect{
+    margin-bottom: 40px;
+    background-color: #999999;
+  }
+  .padMeUpScottie{
+    padding-bottom: 5px;
+  }
+  .bottom-image {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: -1; /* Ensure image is behind the text */
+    opacity: 0.9; /* Optional: Make the image slightly transparent */
+  }

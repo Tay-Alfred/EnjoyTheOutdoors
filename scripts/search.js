@@ -34,7 +34,7 @@ function searchParksByState() {
     if (filteredParks.length === 0) {
         stateResultsDiv.textContent = 'No parks found for the selected state/territory.';
     } else {
-        stateResultsDiv.innerHTML = '<h3>Results:</h3>';
+        stateResultsDiv.innerHTML = '<h5>Search Results: </h5>';
         filteredParks.forEach(park => {
             let parkInfo = `<p><strong>${park.LocationName}</strong></p>`;
             parkInfo += `<p>Location: ${park.City}, ${park.State}</p>`;
@@ -57,7 +57,7 @@ function searchParksByType() {
     if (filteredParks.length === 0) {
         typeResultsDiv.textContent = 'No parks found for the selected type.';
     } else {
-        typeResultsDiv.innerHTML = '<h3>Results:</h3>';
+        typeResultsDiv.innerHTML = '<h5>Search Results: </h5>';
         filteredParks.forEach(park => {
             let parkInfo = `<p><strong>${park.LocationName}</strong></p>`;
             parkInfo += `<p>Location: ${park.City}, ${park.State}</p>`;
