@@ -43,3 +43,19 @@
   font-weight: 300;
   font-style: normal;
 }
+#backToTopBtn {
+    display: none; /* Initially hide the button */
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px;
+    background-color: #b2d8d8;
+    color: #000;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  #backToTopBtn:hover {
+    background-color: #004c4c;
+  }
