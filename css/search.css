@@ -34,3 +34,12 @@
     z-index: -1; /* Ensure image is behind the text */
     opacity: 0.9; /* Optional: Make the image slightly transparent */
   }
+  /* // <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 300 to 800 */
+
+.platypi-text {
+  font-family: "Platypi", serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}

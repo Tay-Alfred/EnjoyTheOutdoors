@@ -133,3 +133,9 @@ background-attachment: fixed;
   padding: 20px;
   flex: 1;
 }
+.platypi-text {
+  font-family: "Platypi", serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
